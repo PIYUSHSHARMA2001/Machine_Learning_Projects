@@ -15,3 +15,14 @@ from sklearn import svm
 
 from sklearn.metrics import accuracy_score
 
+import re #regular expression library it is useful for searching goals in a text or paragraph
+
+from nltk.corpus import stopwords # natural language tool kit.corpus , stpowords the works which does not add much value about the context of data such as at,on
+
+from nltk.stem.porter import PorterStemmer #portstemmer is used to stem words to provide root word for particular word
+
+from sklearn.feature_extraction.text import TfidfVectorizer #to convert text into feature vectors
+
+from sklearn.linear_model import LogisticRegression
+
+from sklearn.metrics import accuracy_score
